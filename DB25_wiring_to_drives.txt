@@ -9,25 +9,25 @@ Pinout, description and colors of the DB25 cable I used to link the 5i25 to the 
 2  -
 3  -
 4  -
-5  - green         , DYN4 COM 
+5  - green                , DYN4 COM 
 6  -
 7  -
 8  -
-9  - white         , DYN4 GND 
-10 - Grey/yellow   , DYN4 DIR
-11 - light bule    , DYN4 PUL+ 
+9  - white                , DYN4 GND 
+10 - Grey/yellow          , DYN4 DIR-
+11 - light blue           , DYN4 PUL+ 
 12 - 
 13 -
 14 -
-15 - white/yellow  , ENA   (DYN4 input 24v)   
-16 - blue/red      , ?     (DYN4 input 24v)  
+15 - white/yellow         , ENA   (DYN4 input 24v)   
+16 - blue/red stripes     , ?     (DYN4 input 24v)  
 17 -
-18 -
+18 - Brown, white stripes , ALM - DYN4 OUT 24V
 19 -
 20 -
 21 -
-22 -
-23 -
+22 - Grey, black stripes , DYN4 DIR+
+23 - Blue, black stripes , DYN4 PUL- 
 24 -
 25 -
 

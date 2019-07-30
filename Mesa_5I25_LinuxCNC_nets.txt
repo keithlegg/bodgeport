@@ -1,0 +1,38 @@
+
+---------------------------------------------
+TB6 connector  (Inputs)
+
+00 - Alarm X (see diagram dyn4_mesa7i76_V1.0.pdf)
+01 - Alarm Y (see diagram dyn4_mesa7i76_V1.0.pdf)
+02 - Alarm Z (see diagram dyn4_mesa7i76_V1.0.pdf)
+03 - ESTOP 
+04 - X min limit 
+05 - X max limit (electrically inverted switch)
+06 - Z min limit (Z direction may be inverted and home switches are not resolved on ANY axis) 
+07 - Z max +     (Z direction may be inverted and home switches are not resolved on ANY axis)
+08 - Z max ++    (Z direction may be inverted and home switches are not resolved on ANY axis)
+09
+10
+11
+12
+13
+14
+15
+
+---------------------------------------------
+TB6 connector  (Outputs) 
+    All relays are  24V relay with snubber diodes, driven from 24V field supply.
+
+00 - machine is enabled -> spindle enabled relay 
+01 - spindle CW  (fed through enable relay)
+02 - spindle CCw (fed through enable relay)
+03
+04
+05
+06
+07
+
+
+
+---------------------------------------------
+

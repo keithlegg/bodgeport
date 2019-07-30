@@ -1,18 +1,69 @@
 
 
 
-X limit 
+X limit  Switches
 
 
-Y limit
+ ___
+| o | - +X , Black, White wires (inverted, on until triggered)
+| o | - -X , Green, Red wires 
+ --- 
 
 
-X limit 
+---------------------------------------
+Y limit Switches  (There are 2 chained together ) 
 
 
+White/Green = Y- (front)
+B/Red       = Y+ (back)
 
 
+  Green    White 
+  |        |
+  -------------
+  | O  O  O  O |
+  |            | 
+  | O  O  O  O |   
+  -------------- 
+          |   |
+          Red  Black (B?)
 
+---------------------------------------
+Z limit (3 total) 
+
+Z++  Red
+
+~_~_~_
+|     |  
+|     |
+ --U-- 
+   
+
+Z+   Black 
+ ___
+| o | Z+ 1 
+| o | Z+ 2 
+| o | NC
+ --- 
+
+
+Z-   Orange 
+ ___
+| o | Z- 1 
+| o | Z- 2 
+| o | NC
+ --- 
+
+---------------------------------------
+
+Inside center panel (estop/ shuttle etc)
+     _____________________   
+    | O O O O O O O O O O| 
+    |==== === === =======| 
+    | O O O O O O O O O O| 
+     ---------------------
+      Z+ |Z++|Z-
+     Red |Blk|Orange  
 
 ---------------------------------------
 
@@ -25,23 +76,27 @@ Limit switch / Estop terminals
 
 Block A
      _______
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
+    | O - O |X+ 1
+    | O - O |X+ 2
+    | O - O |X- 1
+    | O - O |X- 2
+    | O - O |ESTOP1
+    | O - O |ESTOP2
     ---------
 
 
 Block B
      _______
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
-    | O - O |
+    | O - O | Y+ 1
+    | O - O | Y+ 2
+    | O - O | Y- 1
+    | O - O | Y- 2
+    | O - O | Z+ 1
+    | O - O | Z+ 2
+    | O - O | Z++ 1
+    | O - O | Z++ 2
+    | O - O | Z- 1
+    | O - O | Z- 2
     ---------
                   
 
