@@ -5,15 +5,38 @@
 # POWER DISTO
 https://www.automationdirect.com/adc/shopping/catalog/power_products_(electrical)/power_distribution_blocks/open_style,_ul_listed,_175a-310a_(hpb_series)/hpb104-3
 
+#NEW PART IS HERE 
+https://www.automationdirect.com/adc/shopping/catalog/power_products_(electrical)/power_distribution_blocks/open_style,_ul_listed/hpb106-3
+
+
+
+##
+
 # BREAKER 
 https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/ul_489_miniature_circuit_breakers/triple_pole_mini_circuit_breakers_(0.5a-40a,_faz-na_series)/c_curve_(0.5a-40a,_faz-cxx-3-na)/faz-c30-3-na
+
+#NEW PART IS HERE 
+https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/circuit_breakers_-a-_circuit_protectors/miniature_circuit_breakers_(mcb)/faz-c30-3-na
+
+
+##
 
 # LINE REACTOR 
 https://www.automationdirect.com/adc/shopping/catalog/drives/ac_variable_frequency_drives_(vfd)/gs2_(115_-z-_230_-z-_460_-z-_575_vac)_v-z-hz_control/ac_line_reactors/lr-22p0-1ph
 
+#NEW PART IS HERE 
+https://www.automationdirect.com/adc/shopping/catalog/drives_-a-_soft_starters/ac_variable_frequency_drives_(vfd)/line_reactors_-a-_output_filters/lr2-22p0-1ph
+
+
+##
+
 # MAGNETIC CONTACTOR  
 https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_contactors_-z-_starters_-z-_overloads/fuji_contactors_-z-_overloads/9_to_25_amp/sc-e04g-24vdc
 
+#NEW PART IS HERE 
+https://www.automationdirect.com/adc/shopping/catalog/motor_controls/iec_magnetic_contactors/iec_contactors/sc-e04pg-24vdc
+
+##
 
 # FUSEHOLDER 
 https://www.automationdirect.com/adc/shopping/catalog/circuit_protection_-z-_fuses_-z-_disconnects/fuses_-a-_fuse_holders/fuse_holders,_fuse_blocks_-a-_accessories/modular_class_cc_-a-_midget_fuse_blocks_-a-_accessories_(30a)/bcm603-1pq-1
@@ -30,15 +53,16 @@ https://www.automationdirect.com/adc/shopping/catalog/enclosures_-z-_subpanels_-
 https://www.automationdirect.com/adc/shopping/catalog/wiring_solutions/electrical_hook-up_-z-_building_wire/insulation_type_-_mtw/mtw16bk
 
 
+
 #LIMIT SWITCH WIRE 
 https://www.automationdirect.com/adc/shopping/catalog/cables/bulk_multi-conductor_cable/flexible_portable_cord_(sjoow,_soow,_sjeoow,_seoow,_type_w)/insulation_type_-_sjoow/sjoow-18-4bk-1
 
-#LIMIT SWITCH WIRE 
 
+#LIMIT SWITCH WIRE 
 https://www.automationdirect.com/adc/shopping/catalog/cables/bulk_multi-conductor_cable/flexible_control_cable/18_awg_unshielded/v40172-1
 
 
-#---------------------------------------
+##############################################
 
 #POWER SWITCH 
 https://www.digikey.com/product-detail/en/carling-technologies/2FA54-73/432-1075-ND/483647
@@ -48,16 +72,25 @@ https://www.digikey.com/product-detail/en/apem-inc/A02ESI3B101IX0/679-3757-ND/60
 
 
 #SSR 
-https://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/SSR-240D25/PB545-ND/678179
+#https://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/SSR-240D25/PB545-ND/678179
+#NEW PART 
+https://www.digikey.com/en/products/detail/sensata-crydom/84134010/1279974
+
 
 #24V PSU 
 https://www.digikey.com/product-detail/en/mean-well-usa-inc/LRS-50-24/1866-3354-ND/7705048
 
+##
 
 #LINE FILTERS 
+
+#ONE OF THESE 
 https://www.digikey.com/product-detail/en/schaffner-emc-inc/FN2030-16-06/817-1278-ND/1928859
 
-https://www.digikey.com/product-detail/en/schaffner-emc-inc/FN2030-1-06/817-1276-ND/1928857
+##THREE OF THESE 
+#https://www.digikey.com/product-detail/en/schaffner-emc-inc/FN2030-1-06/817-1276-ND/1928857
+#NEW PART 
+https://www.digikey.com/en/products/detail/schurter-inc/5500-2630-01/5306297
 
 #24V RELAY 
 https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G2RL2DC24/Z3821-ND/368871
