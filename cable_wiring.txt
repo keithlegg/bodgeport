@@ -1,0 +1,28 @@
+
+The pins are labeled alphabetically counter clockwise - look closely at the cable  
+
+
+# ENCODER CABLE
+
+A - encoder channel B
+B - 
+C - encoder channel A
+D - 
+E - encoder GND 
+F - encoder 5V 
+G - 
+H - 
+I - 
+J - 
+
+
+
+# MOTOR POWER
+
+A - armature +
+B - armature -  
+C - 
+D - 
+E - 
+
+
