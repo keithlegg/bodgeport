@@ -1,8 +1,8 @@
 
-The pins are labeled alphabetically counter clockwise - look closely at the cable  
+The pins are labeled alphabetically (counter clockwise from the outer edge)- look closely at the cable  
 
 
-# ENCODER CABLE
+# ENCODER CABLE  (you may need to swap A/B channels depending on the driver)
 
 A - encoder channel B
 B - 
@@ -17,12 +17,56 @@ J -
 
 
 
-# MOTOR POWER
+# MOTOR POWER (you may need to swap +/- ??)
 
 A - armature +
 B - armature -  
 C - 
 D - 
 E - 
+
+
+
+###########################
+# original bridgeport cable  - small guage wire in twisted  pairs , shielded 
+
+A - black 
+B - red 
+
+C - black 
+D - white
+
+E - blue 
+F - black
+
+G - green
+H - black 
+
+I - NC
+J - NC
+
+
+###########################
+# my custom test cable,  encoder 
+
+each wire is paired with ground connected to encoder ground to eliminate transient noise 
+it really does make a difference, watch it on a scope if you dont believe me!
+
+A - white - encoder channel B
+C - red   - encoder channel A
+E - green - encoder GND 
+F - blue  - encoder 5V 
+
+
+
+###########################
+# my custom test cable, (all in one )  
+
+brown               - motor - 
+black (not in pair) - motor +
+green               - encoder gnd       
+blue                - encoder 5v 
+channel A           - white
+channel B           - red 
 
 

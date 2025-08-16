@@ -5,3 +5,32 @@ gcode examples
     
 wiring diagrams
 
+
+
+
+
+###########################
+#original machine part numbers:
+
+####
+#motor part number
+SEM MT30M4-28
+
+####
+#SEM motor encoder (attached):
+heidenhain ero120
+
+
+####
+#SEM MOTOR CABLES
+ 
+The designation "MS3102A" refers to a type of circular military-specification (MIL-SPEC) connector conforming to the
+MIL-DTL-5015 (formerly MIL-C-5015) standard
+
+
+#motor power   (2 used of 5) 
+MS3102A18-11S 
+
+#encoder cable (4 used of 10) 
+MS3102A18-1S
+
