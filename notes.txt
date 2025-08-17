@@ -1,4 +1,7 @@
 
+
+
+
 gcode examples
     - calibration
     - 
@@ -6,6 +9,9 @@ gcode examples
 wiring diagrams
 
 
+
+###########################
+#DMM DYN4 calibration
 
 
 
@@ -33,4 +39,30 @@ MS3102A18-11S
 
 #encoder cable (4 used of 10) 
 MS3102A18-1S
+
+
+
+
+########################
+#BIG power transformers 
+
+Basler Electric Transformer BE25887001 1542606 
+
+
+unknown brand? 
+
+
+###################################################
+wiring diagram for transformer DIN rails (16 - 8*2)
+--------------------------------
+208V | IL1 TO TERM 1  | jumper term 1 to 5
+     | 1L2 TO TERM 2  | jumper term 2 to 6 
+--------------------------------
+230V | IL1 TO TERM 1  | jumper term 1 to 5 
+     | 1L2 TO TERM 3  | jumper term 3 to 7
+--------------------------------
+460V | IL1 TO TERM 1  | jumper term 3 to 5 
+     | 1L2 TO TERM 7  |  
+--------------------------------
+
 
