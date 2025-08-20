@@ -1,33 +1,83 @@
 
 
+###########################
+#MACHINE SPECS  
+
+spindle RPM  - low is 60-450 , high is 500-4200
+travel is 30" in the X axis, 12" in the Y axis, and 5" in the Z (quill)
 
 
-gcode examples
-    - calibration
-    - 
-    
-wiring diagrams
+use of compression sleeves on motor output shaft to drive ball screw. 
+no shaft key---only friction compression locked up the drive sprocket, had slippage problems 
 
 
 
 ###########################
-#DMM DYN4 calibration
-
-
-
-###########################
-#original machine part numbers:
+#ORIGINAL MACHINE PART NUMBERS
 
 ####
 #motor part number
 SEM MT30M4-28
 
-####
-#SEM motor encoder (attached):
-heidenhain ero120
+
+###########################
+#ENCODER INFO
+
+Heidenhain ero 120
+
+#encoder cable (4 used of 10) 
+MS3102A18-1S
 
 
-####
+## possible substitue encoders with 250 CPR
+## **Automation Direct** 
+## TRD-NH250-RZVWD  
+## **US Digital**
+## E5-250-236-IE-D-D-D-B  
+## CA-FC10-W8-NC-1   
+
+
+#######################
+## Heidenhain ero120 - PCB 10 pin connector 
+## PCB HAS NUMBER ON IT - 22196403 
+
+#######################
+ENCODER PCB CONNECTOR  
+4 pairs of wires to 10 pin , 2 pins NC 
+
+
+   TOP      / BOTTOM
+    ______
+   |
+<- | GREY   / PINK 
+   |---
+<- | BLUE   / RED
+   |---
+<- | YELLOW / GREEN 
+   |---
+<- | NC     / NC
+   |---
+<- | BROWN / WHITE 
+    _____
+ 
+
+   ####################
+   TOP      / BOTTOM
+    _____
+   |
+<- |  ?     /  ?      
+   |---
+<- | CH A-  / CH A+
+   |---
+<- | CH B-  / CH B+ 
+   |---
+<- | NC     / NC
+   |---
+<- | 5V     / GND 
+    _____
+
+
+###########################
 #SEM MOTOR CABLES
  
 The designation "MS3102A" refers to a type of circular military-specification (MIL-SPEC) connector conforming to the
@@ -36,24 +86,58 @@ MIL-DTL-5015 (formerly MIL-C-5015) standard
 
 #motor power   (2 used of 5) 
 MS3102A18-11S 
-
-#encoder cable (4 used of 10) 
-MS3102A18-1S
+AMPHENOL - MS3106A14S-5S 
 
 
 
 
-########################
-#BIG power transformers 
 
-Basler Electric Transformer BE25887001 1542606 
-
-
-unknown brand? 
 
 
 ###################################################
+###################################################
+#POWER TRANSFORMER INFO
+Basler Electric Transformer BE25887001 1542606 
+
+###################################################
+wiring diagram for Basler BE25887001 - DIN rails (16 - 8*2)
+
+best guess I could make 
+--------------------------------
+??   | IL1 TO TERM 1  | jumper term 4 to 5
+     | 1L2 TO TERM 8  |  
+--------------------------------
+??   | IL1 TO TERM 1  | jumper term 4 to 5
+     | 1L2 TO TERM 8  |  
+
+
+
+
+## FOUND ON THE INTERNET https://forum.linuxcnc.org/30-cnc-machines/35020-new-machine-build-bridgeport-r2e4-series-ii
+
+## 208V: Term 1 to Term 5, Term 2 to Term 6; IL1 to Term 1, IL2 to Term 2
+## 230V: Term 1 to Term 5, Term 3 to Term 7; IL1 to Term 1, IL2 to Term 3
+## 460V: Term 3 to Term 5; IL1 to Term 1, IL2 to Term 7
+ 
+## I was able to get a much lower voltage than needed, but after playing around with it I was able to get 79.8V-79.9V with IL1 to term 1, IL2 to Term 7 and Term 3 to 
+## Term 5, and connecting the servo amp power supply to the outer most terminals, 9 and 15. Thanks for the help!
+
+
+unknown brand? 
+###################################################
 wiring diagram for transformer DIN rails (16 - 8*2)
+
+#####################
+
+8 7 6   5   4  3  2   1 
+| | |   |   |  |  |   |
+---------   ----------- 
+-----------------------
+|  |  |  |   |   |    | 
+15 14 13 12  11  10   9  
+
+#####################
+
 --------------------------------
 208V | IL1 TO TERM 1  | jumper term 1 to 5
      | 1L2 TO TERM 2  | jumper term 2 to 6 
@@ -65,4 +149,13 @@ wiring diagram for transformer DIN rails (16 - 8*2)
      | 1L2 TO TERM 7  |  
 --------------------------------
 
+
+
+
+####################################
+#TOP TEN TASTY MACHINE MODIFICATIONS I KNOW
+
+#DC spindle motor 
+
+https://www.truetex.com/dcdrv.htm
 

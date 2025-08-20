@@ -28,7 +28,7 @@ E -
 
 
 ###########################
-# original bridgeport cable  - small guage wire in twisted  pairs , shielded 
+# original bridgeport cable  - small guage wire in twisted  5 pairs , shielded 
 
 A - black 
 B - red 
@@ -46,27 +46,19 @@ I - NC
 J - NC
 
 
-###########################
-# my custom test cable,  encoder 
-
-each wire is paired with ground connected to encoder ground to eliminate transient noise 
-it really does make a difference, watch it on a scope if you dont believe me!
-
-A - white - encoder channel B
-C - red   - encoder channel A
-E - green - encoder GND 
-F - blue  - encoder 5V 
 
 
+## ###########################
+## # my custom test cable,  encoder 
+## 
+## each wire is paired with ground connected to encoder ground to eliminate transient noise 
+## it really does make a difference, watch it on a scope if you dont believe me!
+## 
+## A - white - encoder channel B
+## C - red   - encoder channel A
+## E - green - encoder GND 
+## F - blue  - encoder 5V 
 
-###########################
-# my custom test cable, (all in one )  
 
-brown               - motor - 
-black (not in pair) - motor +
-green               - encoder gnd       
-blue                - encoder 5v 
-channel A           - white
-channel B           - red 
 
 
