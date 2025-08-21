@@ -1,6 +1,6 @@
 
 
-###########################
+###################################################
 #MACHINE SPECS  
 
 spindle RPM  - low is 60-450 , high is 500-4200
@@ -12,15 +12,15 @@ no shaft key---only friction compression locked up the drive sprocket, had slipp
 
 
 
-###########################
+###################################################
 #ORIGINAL MACHINE PART NUMBERS
 
 ####
 #motor part number
 SEM MT30M4-28
 
-
-###########################
+###################################################
+###################################################
 #ENCODER INFO
 
 Heidenhain ero 120
@@ -37,11 +37,14 @@ MS3102A18-1S
 ## CA-FC10-W8-NC-1   
 
 
-#######################
+
+
+
+###################################################
 ## Heidenhain ero120 - PCB 10 pin connector 
 ## PCB HAS NUMBER ON IT - 22196403 
 
-#######################
+###################################################
 ENCODER PCB CONNECTOR  
 4 pairs of wires to 10 pin , 2 pins NC 
 
@@ -77,7 +80,7 @@ ENCODER PCB CONNECTOR
     _____
 
 
-###########################
+###################################################
 #SEM MOTOR CABLES
  
 The designation "MS3102A" refers to a type of circular military-specification (MIL-SPEC) connector conforming to the
@@ -91,7 +94,25 @@ AMPHENOL - MS3106A14S-5S
 
 
 
+###################################################
+##OLD MOTOR I BOUGHT ON EBAY 
 
+MOTOR PART #
+SDA-0251-G141
+
+
+##THE OLD MOTOR THAT WORKS HAS A 
+datametrics trump ross 
+S9481A-250   LC-23
+
+
+
+###################################################
+#AXIS DRIVE BELT PART #s
+
+#X- PIRELLI ISORAN 270H 
+#Y- PIRELLI ISORAN 270H 
+#Z- PIRELLI ISORAN 270 H 075
 
 
 ###################################################
@@ -152,10 +173,35 @@ wiring diagram for transformer DIN rails (16 - 8*2)
 
 
 
+
+
+
+
+####################################
 ####################################
 #TOP TEN TASTY MACHINE MODIFICATIONS I KNOW
 
+
+
+####################################
+#GCODE SPEED CONTROL 
+
+
+
+####################################
 #DC spindle motor 
 
 https://www.truetex.com/dcdrv.htm
+
+
+
+
+
+####################################
+
+##CENTROID ENCODERS
+
+https://centroidcncforum.com/viewtopic.php?f=20&t=4 
+https://shopcentroidcnc.com/shop/cnc-accessories/servo-motor-upgrade-encoder-kit/?attribute_dc-servo-motor-encoders=3%2F8+inch%2C+2000+Line%2C+8000+Count
+
 
