@@ -32,17 +32,33 @@ MS3102A18-1S
 ## possible substitue encoders with 250 CPR
 ## **Automation Direct** 
 ## TRD-NH250-RZVWD  
+
 ## **US Digital**
 ## E5-250-236-IE-D-D-D-B  
 ## CA-FC10-W8-NC-1   
 
+## EPC 755A (see below)
+## SANDPOINT IDAHO ( phone? (208) 263 8541)
 
+
+##from 
+##http://cncsnw.com/Encoders.htm
+
+Quantum Devices QR12
+Quantum Devices QD145
+Dynapar F14 
+Dynapar F18 
+EPC 755A 
+Danaher M21 
+Lucas Ledex S-10285
 
 
 
 ###################################################
 ## Heidenhain ero120 - PCB 10 pin connector 
 ## PCB HAS NUMBER ON IT - 22196403 
+
+encoder number - 2219640-3 (i think the 3 is 3 channel)
 
 ###################################################
 ENCODER PCB CONNECTOR  
@@ -175,6 +191,14 @@ wiring diagram for transformer DIN rails (16 - 8*2)
 
 
 
+
+
+####################################
+#ENCODER DEBUGGING TIPS 
+
+SOLDER A 1UF 25V CAPACITOR BETWEEN THE +5V AND GND PINS ON THE ENCODER BODY.
+
+Do not put this on the drive itself or you will continue to have noise problems!
 
 
 ####################################
