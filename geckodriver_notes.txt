@@ -1,4 +1,18 @@
 
 
+
+
 ###########################
+#differential signal circuit
+
+
+the G320X does not have inputs for differential signals so I guess I have to build a circuit myself. Sigh. 
+
+
+I attempted to use an AM26LS32A chip and it seems to work, but I dont quite get the G+/G- enable thing.
+I think it may be a viable solution. 
+   
+
+
+
  

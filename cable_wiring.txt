@@ -2,12 +2,12 @@
 The pins are labeled alphabetically (counter clockwise from the outer edge)- look closely at the cable  
 
 
+# motor connector is milspec - Amphenol 10-350889-01S
 # ENCODER CABLE  (you may need to swap A/B channels depending on the driver)
-
-A - encoder channel B
-B - 
-C - encoder channel A
-D - 
+A - encoder channel B+
+B - #not used probably B-
+C - encoder channel A+
+D - #not used probably A-
 E - encoder GND 
 F - encoder 5V 
 G - 
@@ -15,10 +15,9 @@ H -
 I - 
 J - 
 
-
-
+# motor connector is milspec - Amphenol MS3102A18-11S
 # MOTOR POWER (you may need to swap +/- ??)
-
+# note there are three large high current wires : red, black, and green - presuambly green is chasis ground 
 A - armature +
 B - armature -  
 C - 
@@ -28,7 +27,7 @@ E -
 
 
 ###########################
-# original bridgeport cable  - small guage wire in twisted  5 pairs , shielded 
+# original bridgeport encoder cable  - small guage wire in twisted  5 pairs , each pair is shielded  
 
 A - black 
 B - red 

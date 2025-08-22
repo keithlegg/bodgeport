@@ -3,6 +3,11 @@
 ###################################################
 #MACHINE SPECS  
 
+Bridgeport Series I V2XT 
+    
+Spindle Taper: #30 QC (Erickson Quick Change) will work with NMTB#30
+Search terms: ("NMTB 30" OR "erickson quick change" OR "quick change 30")
+
 spindle RPM  - low is 60-450 , high is 500-4200
 travel is 30" in the X axis, 12" in the Y axis, and 5" in the Z (quill)
 
@@ -18,6 +23,9 @@ no shaft key---only friction compression locked up the drive sprocket, had slipp
 ####
 #motor part number
 SEM MT30M4-28
+
+#2019 machine had newer motors 
+MTE4237-157CF
 
 ###################################################
 ###################################################
@@ -61,7 +69,8 @@ Lucas Ledex S-10285
 encoder number - 2219640-3 (i think the 3 is 3 channel)
 
 ###################################################
-ENCODER PCB CONNECTOR  
+#ENCODER PCB CONNECTOR  
+
 4 pairs of wires to 10 pin , 2 pins NC 
 
 
@@ -103,9 +112,12 @@ The designation "MS3102A" refers to a type of circular military-specification (M
 MIL-DTL-5015 (formerly MIL-C-5015) standard
 
 
-#motor power   (2 used of 5) 
-MS3102A18-11S 
+#Encoder cable terminates (4 required , 6 if you run as differential)  
+AMPHENOL 10-350889-01S 
+
+#motor power terminates  (2 used of 5) 
 AMPHENOL - MS3106A14S-5S 
+MS3102A18-11S 
 
 
 
@@ -117,7 +129,7 @@ MOTOR PART #
 SDA-0251-G141
 
 
-##THE OLD MOTOR THAT WORKS HAS A 
+##THE OLD MOTOR THAT WORKS HAS ENCODER 
 datametrics trump ross 
 S9481A-250   LC-23
 
@@ -136,9 +148,7 @@ S9481A-250   LC-23
 #POWER TRANSFORMER INFO
 Basler Electric Transformer BE25887001 1542606 
 
-###################################################
-wiring diagram for Basler BE25887001 - DIN rails (16 - 8*2)
-
+#wiring diagram for Basler BE25887001 - DIN rails (16 - 8*2)
 best guess I could make 
 --------------------------------
 ??   | IL1 TO TERM 1  | jumper term 4 to 5
@@ -146,8 +156,6 @@ best guess I could make
 --------------------------------
 ??   | IL1 TO TERM 1  | jumper term 4 to 5
      | 1L2 TO TERM 8  |  
-
-
 
 
 ## FOUND ON THE INTERNET https://forum.linuxcnc.org/30-cnc-machines/35020-new-machine-build-bridgeport-r2e4-series-ii
@@ -160,11 +168,11 @@ best guess I could make
 ## Term 5, and connecting the servo amp power supply to the outer most terminals, 9 and 15. Thanks for the help!
 
 
-unknown brand? 
-###################################################
-wiring diagram for transformer DIN rails (16 - 8*2)
-
+##################### 
 #####################
+# unknown brand - is this the same? 
+# wiring diagram for transformer DIN rails (16 - 8*2)
+
 
 8 7 6   5   4  3  2   1 
 | | |   |   |  |  |   |
