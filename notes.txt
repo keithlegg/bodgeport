@@ -13,7 +13,7 @@ travel is 30" in the X axis, 12" in the Y axis, and 5" in the Z (quill)
 
 
 use of compression sleeves on motor output shaft to drive ball screw. 
-no shaft key---only friction compression locked up the drive sprocket, had slippage problems 
+no shaft key---only friction compression locked up the drive sprocket, had possible slippage problems 
 
 
 
@@ -38,10 +38,10 @@ The designation "MS3102A" refers to a type of circular military-specification (M
 MIL-DTL-5015 (formerly MIL-C-5015) standard
 
 
-#Encoder cable terminates (4 required , 6 if you run as differential)  
+#Encoder cable terminates  (9 of ten used - 3 unknown, 1 of those probably cable shielding) 
 AMPHENOL 10-350889-01S 
 
-#motor power terminates  (2 used of 5) 
+#motor power terminates   (5 of 5 used but two unkown small dia wires go into motor, appear to be connected - fuse or themistor?)
 AMPHENOL - MS3106A14S-5S 
 MS3102A18-11S 
 
