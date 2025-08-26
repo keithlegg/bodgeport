@@ -1,28 +1,32 @@
 
 The pins are labeled alphabetically (counter clockwise from the outer edge)- look closely at the cable  
 
+TODO - figure out the green grounding - I suspect they both terminate at the source of the cables to chassis 
+
 
 # motor connector is milspec - Amphenol 10-350889-01S
 # ENCODER CABLE  (you may need to swap A/B channels depending on the driver)
+# NO PINS on encoder test to chassis !
+
 A - encoder channel B+
-B - #not used probably B-
+B - encoder channel B-
 C - encoder channel A+
-D - #not used probably A-
+D - encoder channel A-
 E - encoder GND 
 F - encoder 5V 
-G - 
-H - 
-I - 
-J - 
+G - green wire - odd because no chassis ground tested 
+H - unkown black wire 
+I - appears to be shielding 
+J - NC
 
 # motor connector is milspec - Amphenol MS3102A18-11S
 # MOTOR POWER (you may need to swap +/- ??)
-# note there are three large high current wires : red, black, and green - presuambly green is chasis ground 
+# note there are three large high current wires : red, black, and green - presuambly green is chassis ground 
 A - armature +
 B - armature -  
-C - 
-D - 
-E - 
+C - (small dia wire - black - continuity tests to D) 
+D - (small dia wire - red   - continuity tests to C)
+E - motor chassis ground (green)  
 
 
 
